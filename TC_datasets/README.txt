@@ -1,0 +1,1 @@
+The TC track datasets are too large to store on GitHub. They are generated with the TC hazard models in 'TC hazard models/' (STORM, CHAZ, IRIS and the WN-C Mini reforecast notebook), or downloaded as described in 'TC hazard models/TC_download_metadata.txt'.

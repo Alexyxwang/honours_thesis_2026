@@ -1,0 +1,8 @@
+timestamp,tag,n_rows,folder,notes
+20261031_214946,standard,24,results\blend_runs\20261031_214946__standard,
+20261031_214947,quantile_windows,36,results\blend_runs\20261031_214947__quantile_windows,
+20261031_214947,conditional,52,results\blend_runs\20261031_214947__conditional,
+20261031_214947,subsample,48,results\blend_runs\20261031_214947__subsample,
+20261031_214947,pairs_standard,72,results\blend_runs\20261031_214947__pairs_standard,
+20261031_214947,pairs_quantile_windows,108,results\blend_runs\20261031_214947__pairs_quantile_windows,
+20261031_214947,pairs_conditional,156,results\blend_runs\20261031_214947__pairs_conditional,

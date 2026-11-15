@@ -1,0 +1,1 @@
+Hazard files are too large to store on GitHub. They are generated from the tracks in TC_datasets/ by the Hazard_<model>.py scripts and loss notebooks in 'hazard_and_loss_generation/' (or code/loss_01 and loss_02).

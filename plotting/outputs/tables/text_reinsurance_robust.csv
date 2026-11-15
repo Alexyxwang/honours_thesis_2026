@@ -1,0 +1,8 @@
+,0
+largest admissible gamma (x 1e-10 per US$),3.820571122570816
+d* at gamma = 0 (US$m),95.28454226666034
+d* at largest gamma (US$m),154.58657949020693
+w_STORM at largest gamma,8.784429382846515e-05
+w_CHAZ at largest gamma,0.9999121557061716
+change in blend CVaR (%),0.330908310521294
+change in variance of model CVaRs (%),-1.7694319130955094
