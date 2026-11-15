@@ -1,0 +1,24 @@
+GenCast, FNV3
+- IBTRACS cyclones were filtered to SI and SP basins with cyclone season >= 2022
+- The initial start data of each cylone was recorded, which were then downloaded from weatherlab via url (paired setting was active)
+
+
+STORM-preprocessing and STORM
+- change master_preprocessing to import genesis_matrix_python3 instead
+- remove printing plot from create_1deg_grid in genesis_matrix_python3
+- also change in genesis_matrix_python3 to save as txt
+- add in allow_pickle=True to the np.load functions in environmental.calculate_MPI_fields()
+- change NA basin boundary in preprocessing.py to 360 (instead of 359) - otherwises causes issues with indexing and linspace
+- replace last section of code in master_preprocessing with genesis_matrix.Change_genesis_locations(None) function
+- paste in ibtracs nc file into folder (also change the r00 in code to r01)
+- paste in Monthly_mean_MSLP (and SST) nc files
+- run master_preprocessing.py - it will generate a bunch of txt and npy files (parameters)
+- get Main STORM code in same directory as output
+- in SELECT_BASIN - function Genesis month - add allow_pickle=True
+- remove the parameter 1 in                 
+                # dlat0=np.random.normal(Dlat0mu,Dlat0std,1)
+                # dlon0=np.random.normal(Dlon0mu,Dlon0std,1)
+    in SAMPLE_TC_MOVEMENT.py function TC_MOVEMENT
+- add allow pickle = True to TC_pressure function
+- remove the parameter 1 from the np.random choice functions in sample_rmax function
+- add allow_pickles to distance_from_coast function
